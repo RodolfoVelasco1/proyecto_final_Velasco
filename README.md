@@ -76,15 +76,34 @@ Este proyecto ofrece una **solución automatizada** que estima valores de mercad
 ## 📁 Estructura del Repositorio
 
 ```
-├── notebook.ipynb                 # Análisis completo y modelado
-├── Informe Ejecutivo.pdf          # Documento técnico detallado
-├── data/
-│   ├── housing.csv                # Dataset original
-│   └── processed/                 # Datos procesados
-├── models/
-│   └── random_forest_model.pkl    # Modelo entrenado
-├── visualizations/                # Gráficos del análisis exploratorio
-└── README.md                      # Este archivo
+├── Notebook/
+│   └── Notebook_Rodolfo_Velasco.ipynb    # Análisis completo y modelado
+│
+├── datos/
+│   ├── Diccionario de datos (datos_originales).xlsx
+│   ├── Diccionario de datos (datos_limpios).xlsx
+│   ├── Estadisticas_Descriptivas_Housing.xlsx
+│   ├── datos_originales.csv              # Dataset original
+│   ├── datos_limpios.csv                 # Dataset procesado
+│   ├── train_set.csv                     # Conjunto de entrenamiento
+│   └── test_set.csv                      # Conjunto de prueba
+│
+├── documentacion/
+│   ├── Informe Ejecutivo - Rodolfo Velasco.pdf    # Documento técnico completo
+│   └── Presentación - Rodolfo Velasco.pptx        # Presentación del proyecto
+│
+├── visualizaciones/
+│   ├── feature_importances.png           # Importancia de características
+│   ├── vis1_price_histogram.png          # Distribución de precios
+│   ├── vis2_income_histogram.png         # Distribución de ingresos
+│   ├── vis3_ocean_proximity_bar.png      # Proximidad al océano
+│   ├── vis4_geo_scatterplot.png          # Distribución geográfica
+│   ├── vis5_income_vs_price_scatter.png  # Ingreso vs Precio
+│   ├── vis6_ocean_vs_price_boxplot.png   # Océano vs Precio
+│   ├── vis7_rooms_per_household_scatter.png  # Habitaciones por hogar
+│   └── vis8_correlation_heatmap.png      # Matriz de correlación
+│
+└── README.md                             # Este archivo                  
 ```
 
 ---
